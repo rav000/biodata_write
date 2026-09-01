@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biodata</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@200;300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="shit.css">
+</head>
+<body>
+    <div class="est-label" aria-hidden="true">Est. 2026</div>
+
+    <nav class="pill-nav" aria-label="Main Navigation">
+        <a href="#hero" class="active">Home</a>
+        <a href="#lookbook">My Skills</a>
+        <a href="#process">Process</a>
+        <a href="#video">Story</a>
+        <a href="#signature">Contact</a>
+    </nav>
+
+<!-- ═══════ MOBILE ═══════ -->
+    <button class="hamburger" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav class="mobile-nav" aria-label="Mobile Navigation">
+        <a href="#hero">Home</a>
+        <a href="#lookbook">My Skills</a>
+        <a href="#process">Process</a>
+        <a href="#video">Story</a>
+        <a href="#signature">Contact</a>
+    </nav>
+
+<!-- ═══════ MOUSE-FOLLOWING BUY CIRCLE ═══════ -->
+    <!-- <div class="buy-circle" id="buyCircle"><span>Add to Cart</span></div> -->
+
+<!-- ═══════ THE CANVAS ═══════ -->
+    <main>
+
+    <!-- SECTION 1: HERO -->
+        <section class="canvas-section hero" id="hero">
+        <div class="hero-image">
+            <img src="images/ivory-flow-01.jpg" alt="Elegant interior with natural textures" loading="eager">
+            <!-- <div class="hero-image-tag">Spring / Summer 2026</div> -->
+        </div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">sekolah bersama</div>
+            <h1 class="hero-title">The Art of<br><em>Nemtas</em></h1>
+            <p class="hero-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum consequatur beatae consectetur laboriosam molestiae placeat!</p>
+            <div class="hero-cta">
+            <a href="#lookbook" class="cta-link">Explore!</a>
+            </div>
+        </div>
+        </section>
+
+    <!-- SECTION 2: THE LOOKBOOK -->
+        <section class="canvas-section lookbook" id="lookbook">
+            <div class="lookbook-header reveal">
+                <h2 class="lookbook-title">My Skills</h2>
+                <span class="lookbook-count">01 — 06</span>
+            </div>
+            <div class="lookbook-track">
+                <div class="lookbook-card">
+                    <img src="images/ivory-flow-11.jpg" alt="Minimalist living room with warm textures" loading="lazy">
+                    <span class="lookbook-card-label">Page 1</span>
+                </div>
+                <div class="lookbook-card">
+                    <img src="images/ivory-flow-12.jpg" alt="Artisan ceramic collection" loading="lazy">
+                    <span class="lookbook-card-label">Page 2</span>
+                </div>
+                <div class="lookbook-card">
+                    <img src="images/ivory-flow-13.jpg" alt="Natural linen textiles draped on chair" loading="lazy">
+                    <span class="lookbook-card-label">Page 3</span>
+                </div>
+                <div class="lookbook-card">
+                    <img src="images/ivory-flow-14.jpg" alt="Handcrafted wooden furniture" loading="lazy">
+                    <span class="lookbook-card-label">Page 4</span>
+                </div>
+                <div class="lookbook-card">
+                    <img src="images/ivory-flow-15.jpg" alt="Serene bedroom interior" loading="lazy">
+                    <span class="lookbook-card-label">Page 5</span>
+                </div>
+                <div class="lookbook-card">
+                    <img src="images/ivory-flow-16.jpg" alt="Architectural detail with light" loading="lazy">
+                    <span class="lookbook-card-label">Page 6</span>
+                </div>
+            </div>
+            <div class="lookbook-footer reveal">
+                <a href="#" class="cta-link">See All</a>
+                <div class="lookbook-arrows">
+                    <button class="lookbook-arrow" id="lbPrev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+                    </button>
+                    <button class="lookbook-arrow" id="lbNext" aria-label="Next">
+                        <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+       
+        <!-- SECTION 4: THE PROCESS -->
+        <section class="canvas-section process" id="process">
+            <div class="process-inner">
+                <div class="process-left">
+                    <h2 class="process-title reveal">How each piece<br>comes to life</h2>
+                    <p class="process-subtitle reveal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum similique pariatur eveniet!</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-item" data-timeline>
+                        <div class="timeline-step">Step 01</div>
+                        <h3 class="timeline-heading">Source</h3>
+                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, repellat sequi. Maiores nemo voluptate possimus?</p>
+                    </div>
+                    <div class="timeline-item" data-timeline>
+                        <div class="timeline-step">Step 02</div>
+                        <h3 class="timeline-heading">Design</h3>
+                        <p class="timeline-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore assumenda rem debitis reiciendis omnis.</p>
+                    </div>
+                    <div class="timeline-item" data-timeline>
+                        <div class="timeline-step">Step 03</div>
+                        <h3 class="timeline-heading">Craft</h3>
+                        <p class="timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro reprehenderit assumenda placeat minima.</p>
+                    </div>
+                    <div class="timeline-item" data-timeline>
+                        <div class="timeline-step">Step 04</div>
+                        <h3 class="timeline-heading">Deliver</h3>
+                        <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam officiis blanditiis quibusdam obcaecati, deserunt optio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 5: VIDEO FRAGMENT -->
+        <section class="canvas-section video-fragment" id="video">
+            <div class="video-bg">
+                <img src="images/ivory-flow-61.jpg" alt="Sunlit workshop with craftsperson at work" loading="lazy">
+            </div>
+            <div class="grain-overlay"></div>
+            <div class="video-content reveal">
+                <div class="video-play">
+                    <svg viewBox="0 0 24 24"><polygon points="8,5 20,12 8,19"/></svg>
+                </div>
+                <h2 class="video-title">The Quiet<br>Studio Film</h2>
+                <p class="video-caption">A slow meditation on making — 4 minutes inside our Copenhagen workshop, filmed over 12 months.</p>
+                <a href="#" class="cta-link cta-link--light">Watch the Film</a>
+            </div>
+        </section>
+
+        <!-- SECTION 6: THE SIGNATURE -->
+        <section class="canvas-section signature" id="signature">
+            <div class="signature-bg-logo" aria-hidden="true">Ivory Flow</div>
+            <div class="signature-content reveal">
+                <div class="signature-mark">The Ivory Flow</div>
+                <h2 class="signature-heading">Let's create<br>something enduring</h2>
+                <p class="signature-text">Whether it's a single chair or an entire interior — we'd love to hear what you're imagining. Consultations are always complimentary.</p>
+                <a href="mailto:ravindra.hamdani23@smk.belajar.id" class="signature-email">ravindra.hamdani23@smk.belajar.id</a>
+                <div class="signature-phone">+45 32 17 88 00</div>
+                <div class="signature-links">
+                    <a href="#" class="cta-link">Instagram</a>
+                    <a href="#" class="cta-link">Pinterest</a>
+                    <a href="#" class="cta-link">Journal</a>
+                </div>
+            </div>
+            <!-- <div class="signature-footer">
+                <a href="https://www.tooplate.com" target="_blank" rel="nofollow">Free HTML Template</a> by Tooplate &middot; The Ivory Flow
+            </div> -->
+        </section>
+    </main>
+<script src="shit.js"></script>
+</body>
+</html>

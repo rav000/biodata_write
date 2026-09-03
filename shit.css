@@ -99,7 +99,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ═══════════════════════════════════════════════
    EXPANDING UNDERLINE CTA (No Standard Buttons)
    ═══════════════════════════════════════════════ */
-/* .cta-link {
+.cta-link {
   display: inline-block;
   font-family: 'Manrope', sans-serif;
   font-size: 12px;
@@ -134,7 +134,7 @@ img { display: block; max-width: 100%; height: auto; }
 .cta-link--dark::after { background: var(--ink); }
 
 .cta-link--light { color: var(--oat); }
-.cta-link--light::after { background: var(--oat); } */
+.cta-link--light::after { background: var(--oat); }
 
 /* ═══════════════════════════════════════════════
    STICKY SECTION ARCHITECTURE

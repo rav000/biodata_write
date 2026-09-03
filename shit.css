@@ -1,15 +1,4 @@
 @charset "utf-8";
-/* CSS Document 
-
-Tooplate 2166 Ivory Flow
-    
-https://www.tooplate.com/view/2166-ivory-flow
-
-*/
-
-/* ═══════════════════════════════════════════════
-   RESET & VARIABLES
-   ═══════════════════════════════════════════════ */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
@@ -110,7 +99,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ═══════════════════════════════════════════════
    EXPANDING UNDERLINE CTA (No Standard Buttons)
    ═══════════════════════════════════════════════ */
-.cta-link {
+/* .cta-link {
   display: inline-block;
   font-family: 'Manrope', sans-serif;
   font-size: 12px;
@@ -145,7 +134,7 @@ img { display: block; max-width: 100%; height: auto; }
 .cta-link--dark::after { background: var(--ink); }
 
 .cta-link--light { color: var(--oat); }
-.cta-link--light::after { background: var(--oat); }
+.cta-link--light::after { background: var(--oat); } */
 
 /* ═══════════════════════════════════════════════
    STICKY SECTION ARCHITECTURE
@@ -675,7 +664,7 @@ img { display: block; max-width: 100%; height: auto; }
   padding: 40px;
 }
 
-.video-play {
+/* .video-play {
   width: 80px;
   height: 80px;
   border: 1px solid rgba(252, 250, 248, 0.3);
@@ -698,7 +687,7 @@ img { display: block; max-width: 100%; height: auto; }
   height: 20px;
   fill: var(--oat);
   margin-left: 3px;
-}
+} */
 
 .video-title {
   font-family: 'Cormorant Garamond', serif;
